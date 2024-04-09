@@ -6,11 +6,18 @@
 
 body{
     max-width: 1000px;
-    margin: 0 auto;    
-}
+    margin: 0 auto;
+    font-family: "Cabin", sans-serif;      
+    };    
+
 
 header{
-    background-color: #61a1ea;
+    background-color: #255ee9;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 2rem;
 }
 
 ul{
@@ -19,6 +26,32 @@ ul{
 
 footer{
     background-color: #23272a;
+}
+
+.top-header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 2rem;
+}
+
+.main-header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.top-header{
+    background-color: #61a1ea;
+}
+
+.main-menu-list{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.main-menu-list>li{
+    padding: 0 1rem;
 }
 
 .bg.grey{
