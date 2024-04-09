@@ -5,9 +5,22 @@
 }
 
 body{
-    max-width: 1500px;
+    max-width: 1000px;
+    margin: 0 auto;    
 }
 
 header{
     background-color: #61a1ea;
+}
+
+ul{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+.bg.grey{
+    background-color: #f6f6f6;
 }
