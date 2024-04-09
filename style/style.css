@@ -17,7 +17,12 @@ header{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 2.5rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 ul{
@@ -26,22 +31,33 @@ ul{
 
 footer{
     background-color: #23272a;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;    
 }
 
 .top-header{
+    background-color: #255ee9;
     color: white;
+    font-size:0.80rem;
     display: flex;
     justify-content: space-around;
-    padding: 0.5rem 2rem;
+    align-items: center;
+    padding: 0.80rem 2.5rem;    
 }
 
 .main-header{
+    color: white;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    padding: 4rem 15.5rem;
+    text-align: center;
+    line-height: 1.5rem;
 }
 
-.top-header{
-    background-color: #61a1ea;
+.main-header>p{
+    font-size: 0.85rem;
 }
 
 .main-menu-list{
@@ -52,6 +68,41 @@ footer{
 
 .main-menu-list>li{
     padding: 0 1rem;
+}
+
+.logo.img>img{
+    height: 1.5rem;
+}
+
+.button{
+    border-radius: 15px;
+    padding: 0.3rem 0.5rem;
+    font-size: x-small;
+    border-color: transparent;
+}
+
+nav.footer-menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.link-menu{
+    display: inline-block;
+}
+
+.title-footer{
+    color: #6a7cbc;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-white{
+    background-color: white;
 }
 
 .bg.grey{
