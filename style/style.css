@@ -105,13 +105,28 @@ footer{
 .ad-main{
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
     text-align: center;
     padding: 3rem;
 }
 
 .text-info{
     width: 40%;
-    padding: 2rem 2rem 0;    
+    padding: 2rem 7rem 0;    
+}
+
+.text-info>p{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+.ad-main div{
+    width: 100%;
+}
+
+.ad-main img{
+    width: 100%;
+    padding: 1rem 3rem;
 }
 
 .ad-main p{
@@ -157,8 +172,4 @@ nav.footer-menu{
 
 .item3{
     background-image: url(../img/item3.svg);
-}
-
-.item4{
-    background-image: url(../img/item4-big.svg);
 }
