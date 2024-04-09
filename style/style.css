@@ -37,10 +37,6 @@ footer{
     justify-content: space-around;    
 }
 
-.logo.img{
-    width: 60%;
-}
-
 .top-header{
     background-color: #255ee9;
     color: white;
@@ -107,7 +103,7 @@ footer{
     flex-flow: column nowrap;
     justify-content: center;
     text-align: center;
-    padding: 3rem;
+    padding: 3rem 3rem 0;
 }
 
 .text-info{
@@ -132,6 +128,21 @@ footer{
 .ad-main p{
     font-size: 0.9rem;
     line-height: 1.3rem;
+}
+
+.download{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.download>h3{
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    background-image: url(../img/stars.svg);
+    background-position: 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
 }
 
 nav.footer-menu{
