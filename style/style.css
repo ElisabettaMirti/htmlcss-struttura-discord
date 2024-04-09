@@ -81,6 +81,21 @@ footer{
     border-color: transparent;
 }
 
+.ad-info{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center; 
+    padding: 3rem;   
+}
+
+.row-reverse{
+    flex-flow: row-reverse nowrap;
+}
+
+.logo.img{
+    width: 60%;
+}
+
 nav.footer-menu{
     display: flex;
     flex-flow: row nowrap;
