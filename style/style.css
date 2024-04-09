@@ -37,6 +37,10 @@ footer{
     justify-content: space-around;    
 }
 
+.logo.img{
+    width: 60%;
+}
+
 .top-header{
     background-color: #255ee9;
     color: white;
@@ -85,15 +89,34 @@ footer{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center; 
-    padding: 3rem;   
+    padding: 3rem;       
+}
+
+.ad-info .img{
+    width: calc(60% - 2rem);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .row-reverse{
     flex-flow: row-reverse nowrap;
 }
 
-.logo.img{
-    width: 60%;
+.ad-main{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding: 3rem;
+}
+
+.text-info{
+    width: 40%;
+    padding: 2rem 2rem 0;    
+}
+
+.ad-main p{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
 }
 
 nav.footer-menu{
@@ -120,6 +143,22 @@ nav.footer-menu{
     background-color: white;
 }
 
-.bg.grey{
+.bg-grey{
     background-color: #f6f6f6;
+}
+
+.item1{
+    background-image: url(../img/item1.svg);    
+}
+
+.item2{
+    background-image: url(../img/item2.svg);
+}
+
+.item3{
+    background-image: url(../img/item3.svg);
+}
+
+.item4{
+    background-image: url(../img/item4-big.svg);
 }
