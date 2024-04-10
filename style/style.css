@@ -47,7 +47,7 @@ footer{
     padding: 0.80rem 2.5rem;    
 }
 
-.main-header{
+.header-main{
     color: white;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -56,17 +56,17 @@ footer{
     line-height: 1.5rem;
 }
 
-.main-header>p{
+.header-main>p{
     font-size: 0.85rem;
 }
 
-.main-menu-list{
+.header-menu-list{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
 }
 
-.main-menu-list>li{
+.header-menu-list>li{
     padding: 0 1rem;
 }
 
